@@ -20,7 +20,7 @@ FROM CROSSTAB(
         regular bigint,
         wrong bigint
     );
--- ANother solution
+-- Another solution
 SELECT v.value AS velocity,
     COALESCE(
         SUM(
