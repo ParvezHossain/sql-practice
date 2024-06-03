@@ -1,3 +1,8 @@
+
+-- More on this link:  https://learnsql.com/blog/recursive-cte-sql-server/
+
+
+
 CREATE TABLE employees (
     id INT PRIMARY KEY,
     name VARCHAR(50) NOT NULL,
